@@ -169,13 +169,13 @@ The following commands demonstrate how to build your own image and push it to th
 
 ```
 cd DIRECTORY_WITH_DOCKERFILE
-docker build -t harbor.pacslab.ca/YOUR_STUDENT_ID/YOUR_IMAGE_NAME:TAG
+docker build -t harbor.pacslab.ca/YOUR_STUDENT_ID/YOUR_IMAGE_NAME:TAG .
 docker push harbor.pacslab.ca/YOUR_STUDENT_ID/YOUR_IMAGE_NAME:TAG
 ```
 For example, your student ID is `123456789`, the image name is `my-awesome-frontend`, and the tag is `latest`.
 ```
 cd my-awesome-frontend
-docker build -t harbor.pacslab.ca/123456789/my-awesome-frontend:latest
+docker build -t harbor.pacslab.ca/123456789/my-awesome-frontend:latest .
 docker push harbor.pacslab.ca/123456789/my-awesome-frontend:latest
 ```
 
