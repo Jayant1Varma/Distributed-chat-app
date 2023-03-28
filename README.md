@@ -109,7 +109,7 @@ EECS4222_Project_2/
 ├─ report.pdf
 ├─ info.txt
 ├─ README.md
-├─ FAQ.md
+├─ QA.md
 ├─ .gitignore
 ```
 
