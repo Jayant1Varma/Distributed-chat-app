@@ -28,3 +28,6 @@ Correct
 
 ## Do we have to name images as image-a, image-b, and image-c, or can we use other names?
 The three images in the project repo are just placeholders. You can use any image name you see fit. Just make sure that you update the directory name accordingly. For example, if you have an image named `my-awesome-frontend`, you should place all the necessary source files for building the image in the `images/my-awesome-frontend` directory. When building your images, the automated judge will fetch the image name and tag from `chatapp.yaml` and locate the source files from the `images` directory.
+
+## Can we have more than three images?
+Yes
