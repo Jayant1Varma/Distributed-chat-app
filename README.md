@@ -1,4 +1,4 @@
-# EECS4222: Distributed Computing Systems: Project 2 (25%)
+# EECS4222: Distributed Systems: Project 2 (25%)
 
 **Title:** Distributed Chat Application
 
