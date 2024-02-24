@@ -4,7 +4,7 @@
 
 **Start:** Feb 26, 2024, @ 9:00am EST  
 
-**Due:** April 08, 2024, by 9:00pm EST
+**Due:** Apr 08, 2024, by 9:00pm EST
 
 ## Objective
 This project aims to design and implement a distributed chat application that supports multi-client and real-time communication. The chat application will be built using a distributed architecture and deployed on Kubernetes to ensure reliable and efficient communication between clients, high scalability, and fault tolerance. The application will provide a web user interface for users to send and receive messages.
