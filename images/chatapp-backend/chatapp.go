@@ -1,7 +1,7 @@
 package main
 
 import (
-	"context"       // For managing lifecycle: cancellation, deadlines, etc.
+	"context"       // For managing lifecycle: cancellation, deadlines, blah-blah.
 	"encoding/json" // For encoding and decoding messages to JSON.
 	"flag"          // For parsing command-line arguments.
 	"log"           // For logging messages and errors.
