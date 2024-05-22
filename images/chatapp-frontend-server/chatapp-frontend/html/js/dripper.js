@@ -7,7 +7,7 @@ openChannel = function() {
     } else {
         new_uri = "ws:";
     }
-    // Assuming the backend service is named 'chatapp-backend' in Kubernetes
+    // Backend service is named 'chatapp-backend' in Kubernetes
     // and is exposed on port 14222
     // new_uri += "//chatapp-backend:14222/websocket"; //old code, might need update for dynamic localhost name. 
 
