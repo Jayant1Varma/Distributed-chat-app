@@ -3,7 +3,13 @@
 ## Project goal:
 This project aims to design and implement a distributed chat application that supports multi-client and real-time communication. The chat application will be built using a distributed architecture and deployed on Kubernetes to ensure reliable and efficient communication between clients, high scalability, and fault tolerance. The application will provide a web user interface for users to send and receive messages.
 
+## Note:
 Kindly note that this project was made for the Lassonde course, EECS 4222: Distributed systems
+
+The docker images excellent, the docker-compose.yaml is also excellent for user testing. However,note that the chatapp.yaml file for use with kubernetes is unable to pull the redis images. I don't have access to the virtual machines anymore as they were provided by the course, I will see if I can debug this very trivial problem someway. Otherwise, the project is perfect. 
+
+Project grade: 79%
+Only 6 people including me, out of 20 in the course were able to do this project
 
 ## Prerequisites
 The following prerequisites must be met to successfully complete this project.
