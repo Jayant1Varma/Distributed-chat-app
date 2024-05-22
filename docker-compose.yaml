@@ -1,0 +1,24 @@
+version: '3.9'  # Use a version of Compose compatible with your Docker version
+
+services:
+  redis:
+    image: "harbor.pacslab.ca/218350819/redis:7.0.8-alpine"
+    container_name: "chatapp_redis"
+
+  chatapp-backend:
+    image: "harbor.pacslab.ca/218350819/chatapp-backend:latest"
+    container_name: "chatapp_backend"
+    ports:
+      - "14222:14222"  # Map the port 14222 on the host to port 14222 on the container
+    depends_on:
+      - "redis"
+    environment:
+      - REDIS_ADDR=redis:6379  # The name of the Redis service in docker-compose as the address
+
+  chatapp-frontend-server:
+    image: "harbor.pacslab.ca/218350819/chatapp-frontend-server:latest"
+    container_name: "chatapp_frontend_server"
+    ports:
+      - "30222:30222"  # Map the port 30222 on the host to port 30222 on the container
+    depends_on:
+      - "chatapp-backend"
