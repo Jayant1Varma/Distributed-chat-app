@@ -1,13 +1,15 @@
 # Distributed Chat Application
 
-## Goal:
+## Project goal:
 This project aims to design and implement a distributed chat application that supports multi-client and real-time communication. The chat application will be built using a distributed architecture and deployed on Kubernetes to ensure reliable and efficient communication between clients, high scalability, and fault tolerance. The application will provide a web user interface for users to send and receive messages.
+
+Kindly note that this project was made for the Lassonde course, EECS 4222: Distributed systems
 
 ## Prerequisites
 The following prerequisites must be met to successfully complete this project.
 
-* A Kubernetes cluster (as required by Project 1)
-* Docker >= 19.03.8 (as required by Project 1; Hint: see [Appendix 4](#4-docker-tutorials--links--docs) for Docker Tutorials/Docs)
+* A Kubernetes cluster
+* Docker >= 19.03.8 ( Hint: see [Appendix 4](#4-docker-tutorials--links--docs) for Docker Tutorials/Docs)
 * Go >= 1.19
 * Python >= 3.8.0 (if applicable)
 * JavaScript (if applicable)
