@@ -8,7 +8,8 @@ Kindly note that this project was made for the Lassonde course, EECS 4222: Distr
 
 The docker images excellent, the docker-compose.yaml is also excellent for user testing. However,note that the chatapp.yaml file for use with kubernetes is unable to pull the redis images. I don't have access to the Kubernetes cluster and the virtual machines anymore as they were provided by the course. I will see if I can debug this very trivial problem someway. Otherwise, the project is perfect. 
 
-Project grade: 79%
+Project grade: 79%.
+
 Only 6 people including me, out of 20 in the course were able to do this project
 
 ## Prerequisites
